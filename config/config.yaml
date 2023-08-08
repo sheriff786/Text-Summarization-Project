@@ -1,0 +1,9 @@
+artifacts_root: artifacts  #it will generate artifacts folder
+#first create data_ingestion config
+
+data_ingestion:
+  root_dir: artifacts/data_ingestion
+  source_URL: https://github.com/sheriff786/new_branch_repository/raw/main/samsumdata.zip
+  local_data_file: artifacts/data_ingestion/data.zip
+  unzip_dir: artifacts/data_ingestion
+  
